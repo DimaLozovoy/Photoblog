@@ -68,6 +68,7 @@ img {
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: 0.5s;
   }
   .nav-link:hover, .nav-link:focus {
   color: var(--accent-color);
@@ -79,7 +80,7 @@ img {
     font-family: Ubuntu;
     font-size: 14px;
     text-transform: uppercase;
-    margin-top: 62px
+    margin-top: 62px;
   }
   .main-content-subtitle:nth-child(n+2), .main-content-subtitle {
     margin-top: 32px;
@@ -93,7 +94,6 @@ img {
     flex-wrap: wrap;
     gap: 65px;
     row-gap: 130px;
-    margin-bottom: 99px;
   }
   .main-content-item {
     width: 420px;
@@ -117,11 +117,14 @@ img {
     width: 165px;
     height: 60px;
     background-color: white;
+    border: 1px solid #626262;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 92px;
+    transition: 0.5s;
   }
   .main-content-btn:hover, .main-content-btn:focus {
       background-color: var(--accent-color);
