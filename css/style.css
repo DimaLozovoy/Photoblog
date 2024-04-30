@@ -1,8 +1,6 @@
-:root {
-    --accent-color: #03a9f4;
-    --main-color: #626262;
-    --add-color: #b4ad9e;
-  }
+root {    --accent-color: #03a9f4;
+  --main-color: #626262;
+  --add-color: #b4ad9e;}
   body {
     font-family: Playfair Display;
   }
